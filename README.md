@@ -1,199 +1,210 @@
 # Pharmaceutical-Sales-Performance-Dashboard
-A comprehensive Data Analysis & Business Intelligence project created using Power BI. This project analyzes real-world Egyptian pharmaceutical sales and distribution data covering pharmacies, distribution companies, and medical product lines across Egyptian territories over a 3-month period (Q1: January, February, and March).
+# 💊 Pharmaceutical Sales Performance & Distribution Dashboard
 
-🎥 Project Demo (Video Presentation)
+An interactive Power BI project analyzing pharmaceutical sales performance, product portfolio, and distribution operations across the Egyptian pharmaceutical market.
 
-📌 Note: Click the image above to watch the full interactive dashboard demo on YouTube. Source data and Power BI .pbix files are kept confidential due to privacy and data protection guidelines.
+---
 
-📋 Table of Contents
+## 📋 Table of Contents
 
-Project Overview
+- [Project Overview](#-project-overview)
+- [Dashboard Demo Video](#-dashboard-demo-video)
+- [Dashboard Architecture & Views](#-dashboard-architecture--views)
+- [Data Pipeline & Processing](#-data-pipeline--processing)
+- [Key Performance Indicators](#-key-performance-indicators)
+- [Advanced Power BI Features](#-advanced-power-bi-features)
+- [Key Business Insights](#-key-business-insights)
+- [How to Explore](#-how-to-explore)
+- [Tools & Technologies](#-tools--technologies)
 
-Dataset Architecture
+---
 
-Data Transformation & DAX Modeling
+## 🎯 Project Overview
 
-Key Performance Indicators (KPIs)
+This project presents an interactive **Pharmaceutical Sales Performance & Distribution Dashboard** developed entirely using **Microsoft Power BI**.
 
-Dashboard Architecture & Interactive Views
+The dashboard is built using real pharmaceutical market transaction data from Egypt, covering a three-month period (**January, February, and March**).
 
-Advanced Power BI Features & UX Concepts
+It provides insights into sales performance, product portfolios, customer activity, and distribution operations across different pharmaceutical companies, pharmacies, and distributors nationwide.
 
-Business Insights Summary
+### Project Highlights
 
-🎯 Project Overview
+| Metric | Value |
+|---|---:|
+| Total Transactions Analyzed | 135,668 |
+| Reporting Period | 3 Months |
+| Total Sales Revenue | 108.91M |
+| Total Units Sold | 3M |
+| Total Customers | 43K |
+| Total Distributors | 15 |
+| Total Products | 47 |
 
-The main objective of this project is to provide actionable commercial insights for pharmaceutical sales leadership and regional managers in Egypt. By monitoring revenue patterns, channel performance (Store, Retail, Tender), distributor volume shares, and individual product line dynamics, decision-makers can identify market opportunities and address sales bottlenecks.
+**Main Objective:** Transform raw pharmaceutical sales data into meaningful business insights that support performance monitoring, distribution analysis, and data-driven decision-making.
 
-Data Volume: 135,668 Rows
+---
 
-Geographic Coverage: Regions and Territories across Egypt (e.g., Cairo, Giza, Alex, Delta, Upper Egypt)
+## 🎬 Dashboard Demo Video
 
-Time Horizon: Q1 Full Quarter (January, February, March)
+Watch the full dashboard walkthrough to explore its interactive features, navigation, and analytical capabilities.
 
-Primary Tool: Power BI Desktop (Power Query, DAX Data Modeling, Data Visualization)
+**YouTube Demo:** [Insert YouTube Video Link Here]
 
-🗃️ Dataset Architecture
+---
 
-The underlying dataset captures granular B2B sales operations containing key dimensions and metrics:
+## 🖼️ Dashboard Architecture & Views
 
-Field Name
+The dashboard is structured into multiple analytical views, each designed to address specific business requirements.
 
-Description
+### 1. Home / Landing Page
 
-Customer Code & Customer Name
+The main navigation hub, providing an organized interface for accessing different dashboard sections.
 
-Unique identifiers for pharmacies, hospitals, and clients
+**Screenshot:**  
+[Insert Home Page Screenshot Here]
 
-Distributor
+### 2. Executive Summary & Sales Trend Analysis
 
-Name of the pharmaceutical distribution entity (e.g., Stores, POS, Ibn Sina, EGY, Sofico)
+Provides a high-level overview of overall sales performance, monthly trends, regional distribution, and sales channel contributions.
 
-Product Name & Product Key
+**Screenshot:**  
+[Insert Executive Summary Screenshot Here]
 
-Specific pharmaceutical product SKU and its database key
+### 3. Product Portfolio & Pricing Analysis
 
-Line Name
+Focuses on product-level performance, pricing structures, and identifying the Top 10 and Bottom 10 products based on sales value.
 
-Product classification/business line (e.g., Line 1, Line 2, CVM, Tender)
+**Screenshot:**  
+[Insert Product Analysis Screenshot Here]
 
-Sales Month
+### 4. Interactive Bookmarks & Advanced Tooltips
 
-Transaction month (January, February, March)
+Showcases advanced Power BI interactions, including bookmark-based navigation and custom report page tooltips for accessing additional details without overcrowding the dashboard.
 
-Unit Price
+**Bookmark View 1:**  
+[Insert Bookmark View 1 Screenshot Here]
 
-Price per unit sold
+**Bookmark View 2:**  
+[Insert Bookmark View 2 Screenshot Here]
 
-Units Sold
+---
 
-Volume of products sold in a single transaction
+## ⚙️ Data Pipeline & Processing
 
-Channel / Sales Type
+The raw transaction data was processed and transformed using **Power Query**, preparing it for analysis and visualization.
 
-Distribution pathway (Store, Retail, Tender)
+### Data Processing
 
-Region & Territory
+- Imported and structured 135,668 transaction records.
+- Cleaned and organized the dataset.
+- Prepared product, customer, and distributor information.
+- Structured geographical and sales channel data.
+- Transformed the data into an analysis-ready format.
 
-Egyptian geographical boundaries and local coverage units
+### Core Dataset Columns
 
-Sales Value
+| Category | Columns |
+|---|---|
+| Customer Information | Customer Code, Customer Name |
+| Distribution | Distributor |
+| Product Information | Product Name, Product Key, Line Name |
+| Time | Month |
+| Sales Metrics | Price, Units Sold, Product Line Sales Values |
+| Sales Channels | Sales Type (Store, Retail, Tender) |
+| Geography | Region, Territory |
 
-Total monetary value generated per sales transaction
+The dataset covers different Egyptian governorates and geographical territories, enabling detailed regional sales and distribution analysis.
 
-⚙️ Data Transformation & DAX Modeling
+---
 
-1. Data Cleaning (Power Query)
+## 📊 Key Performance Indicators (KPIs)
 
-Raw Data Validation: Cleaned and structured 135k+ rows of real transaction logs.
+Several DAX measures were developed to monitor business performance and provide dynamic analytical insights.
 
-Data Type Corrections: Set precise numerical formats for unit counts, financial transactions, and geographical texts.
+| KPI | Value | Description |
+|---|---:|---|
+| Total Sales | 108.91M | Overall sales revenue |
+| Total Units Sold | 3M | Total quantity of pharmaceutical products sold |
+| Total Customers | 43K | Number of active pharmacies and customers |
+| Total Distributors | 15 | Number of distribution partners |
+| Total Products | 47 | Number of products in the portfolio |
+| Average Transaction Value (ATV) | 802.78 | Average sales value per transaction |
+| Average Sales Value per Product | 2.32M | Average sales revenue per product |
 
-Handling Missing/Null Values: Cleaned records to maintain accurate channel and regional aggregation.
+All KPIs are designed to support interactive filtering and dynamic performance monitoring.
 
-2. Custom DAX Measures
+---
 
-Several custom Data Analysis Expressions (DAX) were crafted to measure business performance:
+## 🚀 Advanced Power BI Features & Techniques
 
-Total Sales Value:
+The project incorporates several advanced Power BI capabilities to improve usability, navigation, and analytical depth.
 
-Total Sales = SUM('SalesData'[Sales Value])
+### 1. Bookmarks
+- Created interactive bookmark navigation.
+- Enabled switching between different visual states.
+- Optimized dashboard space and reduced visual clutter.
 
+### 2. Custom Report Page Tooltips
+- Designed dedicated tooltip pages.
+- Displayed additional distributor and regional details on hover.
+- Provided deeper insights without navigating away from the main report.
 
-Total Units Sold:
+### 3. Drill-through & Dynamic Filtering
+- Enabled detailed exploration from high-level geographical views to specific business dimensions.
+- Supported interactive filtering across different analytical views.
+- Improved the overall data exploration experience.
 
-Total Units Sold = SUM('SalesData'[Units Sold])
+---
 
+## 💡 Key Business Insights
 
-Total Customers Count:
+The analysis focuses on identifying important performance patterns and opportunities across the pharmaceutical distribution business.
 
-Total Customers = DISTINCTCOUNT('SalesData'[Customer Code])
+### 1. Monthly Sales Performance
+Analyzed sales trends across January, February, and March to identify peak sales periods and monthly performance variations.
 
+### 2. Sales Channel Performance
+Compared sales contributions across different sales types, including Retail, Store, and Tender.
 
-Total Products & Distributors:
+### 3. Geographical Performance
+Identified leading regions and territories across Egypt based on sales contribution.
 
-Total Products = DISTINCTCOUNT('SalesData'[Product Key])
-Total Distributors = DISTINCTCOUNT('SalesData'[Distributor])
+### 4. Product Portfolio Analysis
+Evaluated product performance by identifying the Top 10 and Bottom 10 products based on sales value.
 
+### 5. Distribution Performance
+Analyzed distributor contributions to understand distribution performance and identify major contributors to overall sales.
 
-Average Transaction Value (ATV):
+---
 
-Avg Transaction Value = DIVIDE([Total Sales], COUNT('SalesData'[Customer Code]), 0)
+## 🛠️ Tools & Technologies
 
+| Tool | Purpose |
+|---|---|
+| Microsoft Power BI | Data visualization and dashboard development |
+| Power Query | Data cleaning, transformation, and ETL |
+| DAX | Measures, calculations, and KPI development |
+| Data Modeling | Structuring data for analytical reporting |
 
-Average Sales Value per Product:
+---
 
-Avg Sales Per Product = DIVIDE([Total Sales], [Total Products], 0)
+## 🔍 How to Explore
 
+To explore the project:
 
-📊 Key Performance Indicators (KPIs)
+1. Watch the dashboard demo video using the link provided above.
+2. Review the dashboard screenshots to understand its structure and analytical views.
+3. Explore the different dashboard sections and interactive navigation features.
+4. Use available filters, bookmarks, tooltips, and drill-through interactions to investigate the data.
 
-The header metrics tracked across the executive views include:
+---
 
-💰 Total Sales: 108.91M EGP
+## 🔒 Data Availability
 
-📦 Total Units Sold: 3M Units
+Due to data privacy, confidentiality, and file size constraints, the underlying raw dataset and Power BI `.pbix` file are not publicly available in this repository.
 
-👥 Total Customers: 43K Accounts
+The repository documentation and dashboard screenshots are provided to demonstrate the project's analytical approach, design, and implemented features.
 
-💊 Total Active Products: 47 Items
+---
 
-🚚 Total Distributors: 15 Partners
-
-💳 Avg Transaction Value: 802.78 EGP
-
-🖼️ Dashboard Architecture & Interactive Views
-
-The report is structured into dedicated analytical views connected by seamless custom navigation:
-
-1. Home Page (Navigation Hub)
-
-Serves as the main landing screen, providing clear visual pathways to Executive Summaries, Product Portfolio Analysis, and Regional Sales Trends.
-
-2. Executive Performance Summary
-
-High-level dashboard overview showing main KPIs, channel performance breakdown (Store vs. Retail vs. Tender), product line contribution, and monthly trend curves.
-
-3. Product Portfolio & Pricing Analysis (Dynamic Bookmarks View)
-
-Detailed product catalog performance allowing toggle navigation between Top 10 Products and Bottom 10 Products by revenue.
-
-🔝 Top 10 Products View
-
-⬇️ Bottom 10 Products View
-
-4. Sales Trend & Regional Distribution Performance
-
-Geographical analysis breaking down sales by Egyptian regions, territories, distributor contribution, and line-level pricing dynamics.
-
-5. Detailed Breakdown Table (Drill-through & Pop-up View)
-
-Granular data matrix providing line-by-line figures for product SKUs against specific Egyptian territories.
-
-💡 Advanced Power BI Features & UX Concepts
-
-To maintain a clean layout while processing large data points, modern Power BI visual techniques were incorporated:
-
-Custom Bookmarks & Selection Panes: Enabled interactive toggling between views (e.g., Top 10 vs Bottom 10 products and detail modal overlays) without cluttering page space.
-
-Report Page Tooltips: Implemented hover-over visual tooltips showing real-time distributor performance metrics when mouse-overing specific product rows.
-
-Slicers & Cross-filtering: Dynamic slicing by Month (Jan, Feb, Mar), Channel Type (Retail, Store, Tender), and Territory (Cairo, Alex, Giza, etc.).
-
-Custom Theme & Typography: Cohesive pharmaceutical color palette (medical green and deep charcoal) for maximum visual clarity and corporate presentation.
-
-📈 Key Insights & Business Findings
-
-Monthly Momentum: Peak revenue was observed in February (~44M EGP), followed by high stability across March and January.
-
-Channel Dominance: Store and Retail channels drive over 68% of total unit volume distribution.
-
-Top Regional Contributors: Cairo, Alexandria, and Giza territories lead in revenue contribution, while specific Delta territories show high growth potential in direct sales lines.
-
-Line Concentration: Line 2 and Line 1 represent the majority of total revenues among the product lines portfolio.
-
-👩‍💻 Developed By
-
-Habiba Ahmed
-
-Data Analyst | Power BI Specialist
+**Developed by Habiba Ahmed**  
+*Data Analyst | Business Intelligence & Data Analytics*
