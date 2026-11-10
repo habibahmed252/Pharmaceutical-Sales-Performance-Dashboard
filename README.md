@@ -1,4 +1,3 @@
-# Pharmaceutical-Sales-Performance-Dashboard
 # 💊 Pharmaceutical Sales Performance & Distribution Dashboard
 
 An interactive Power BI project analyzing pharmaceutical sales performance, product portfolio, and distribution operations across the Egyptian pharmaceutical market.
