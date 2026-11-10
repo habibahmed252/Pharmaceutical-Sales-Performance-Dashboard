@@ -59,31 +59,26 @@ The dashboard is structured into multiple analytical views, each designed to add
 The main navigation hub, providing an organized interface for accessing different dashboard sections.
 
 **Screenshot:**  
-[Insert Home Page Screenshot Here]
+<img width="1362" height="766" alt="image" src="https://github.com/user-attachments/assets/2fa92fa4-45d0-42dc-a18b-329e553b9ea7" />
+
 
 ### 2. Executive Summary & Sales Trend Analysis
 
 Provides a high-level overview of overall sales performance, monthly trends, regional distribution, and sales channel contributions.
 
 **Screenshot:**  
-[Insert Executive Summary Screenshot Here]
+<img width="1387" height="772" alt="image" src="https://github.com/user-attachments/assets/012eb8ef-6250-4cd8-9bb2-ca4585119c03" />
+
 
 ### 3. Product Portfolio & Pricing Analysis
 
 Focuses on product-level performance, pricing structures, and identifying the Top 10 and Bottom 10 products based on sales value.
 
 **Screenshot:**  
-[Insert Product Analysis Screenshot Here]
-
-### 4. Interactive Bookmarks & Advanced Tooltips
-
-Showcases advanced Power BI interactions, including bookmark-based navigation and custom report page tooltips for accessing additional details without overcrowding the dashboard.
-
-**Bookmark View 1:**  
-[Insert Bookmark View 1 Screenshot Here]
-
-**Bookmark View 2:**  
-[Insert Bookmark View 2 Screenshot Here]
+<img width="1392" height="768" alt="image" src="https://github.com/user-attachments/assets/eba0a6f9-37ff-4823-804f-2575b17a238f" />
+<img width="1390" height="762" alt="image" src="https://github.com/user-attachments/assets/442d51f2-3fff-41c0-b76a-892722c42f7b" />
+<img width="1387" height="768" alt="image" src="https://github.com/user-attachments/assets/74e9d67c-9854-480b-b28c-87cff6fabdb5" />
+<img width="1387" height="762" alt="image" src="https://github.com/user-attachments/assets/192fee6d-b607-4334-9cfd-66412ce3725f" />
 
 ---
 
